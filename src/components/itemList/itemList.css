@@ -1,0 +1,8 @@
+.itemsList {
+    width: 500px;
+    max-height: 413px;    
+    min-height: 186px;
+    overflow: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #bbbbbe;
+}

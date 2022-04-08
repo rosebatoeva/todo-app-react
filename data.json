@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "1",
+      "completed": true
+    },
+    {
+      "id": "12",
+      "title": "12",
+      "completed": false
+    },
+    {
+      "id": "123",
+      "title": "123",
+      "completed": true
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "active",
+      "label": "Active",
+      "className": "btn-danger"
+    },
+    {
+      "name": "completed",
+      "label": "Completed",
+      "className": "btn-primary"
+    }
+  ]
+}

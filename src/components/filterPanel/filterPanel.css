@@ -1,0 +1,21 @@
+.filter-panel {
+    margin: 20px 0;
+    color: #9394a5;
+    max-width: 460px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #bbbbbe;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter-panel__filters span {
+    margin: 0 4px;
+}
+
+.filter-panel__filters span:hover,
+.filter-panel__count:hover,
+.filter-panel__btn-clear:hover {
+    color: #48538E;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.item {
+    padding: 20px;
+    max-width: 460px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap; 
+    color: #9394a5;
+    border-bottom: 1px solid  #e8e8e8;
+}
+
+.item:last-child {
+    /* border-bottom: none; */
+}
+.item:hover {
+    color: #48538E;
+    background-color: #efeff5;
+    border-radius: 5px;
+}
+.item__delete-btn{
+    opacity: 0;
+    color: #bbb6b6;
+}
+.item:hover .item__delete-btn{
+    opacity: 1;
+}
+
+.item__checkbox {
+    border: 1px solid #bbb6b6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: linear-gradient(#57ddff, #c058f3);
+    color: white;
+    font-size: 12px;
+}
+.item__checkbox.active {
+    background: white;
+}
+
+.item__title {
+    text-decoration: line-through;
+}
+.item__title.active {
+    text-decoration: none;
+}
+
+.item__delete-btn {
+    cursor: pointer;
+}
