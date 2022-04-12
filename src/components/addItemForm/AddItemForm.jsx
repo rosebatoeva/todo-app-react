@@ -18,8 +18,6 @@ const AddItemForm = () => {
       completed: false
     }
 
-    console.log('newPost');
-
     if(postTitle.length > 0) {
       createPost(newPost).unwrap();
     }
@@ -32,6 +30,7 @@ const AddItemForm = () => {
       <input         
         onChange={e => setPostTitle(e.target.value)}
         type="text" 
+        value={postTitle}
         placeholder='Create a new todo' />
     </form>
     
