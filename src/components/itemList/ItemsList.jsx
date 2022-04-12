@@ -24,9 +24,9 @@ const ItemsList = () => {
     } = useGetPostsQuery();
 
     if (isLoading) {
-        return 'Загрузка...'
+        return 'Loading...'
     } else if (isError) {
-        return 'Ошибка загрузки'
+        return 'Loading error'
     };
 
     const onChecked = (item) => {
