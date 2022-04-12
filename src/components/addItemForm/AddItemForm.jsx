@@ -1,3 +1,4 @@
+import uuid from 'react-uuid';
 import { useState } from 'react';
 import { useCreatePostMutation } from '../../api/apiSlice';
 
@@ -13,7 +14,7 @@ const AddItemForm = () => {
     e.preventDefault();
 
     const newPost = {
-      id: postTitle,
+      id: uuid(),
       title: postTitle,
       completed: false
     }
